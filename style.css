@@ -1,0 +1,21 @@
+h1 {
+  color: tomato;
+}
+
+.container {
+  transition: all 1s;
+  background-color: teal;
+}
+.container h1 {
+  font-style: italic;
+}
+.container p {
+  color: black;
+}
+.container p span {
+  color: tomato;
+}
+
+.container:hover {
+  background-color: rebeccapurple;
+}/*# sourceMappingURL=style.css.map */

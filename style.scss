@@ -1,0 +1,43 @@
+
+
+$basicColor:tomato;
+$basicmargen:10px;
+$bgcolor:teal;
+h1{
+
+color: $basicColor;
+
+}
+
+.container{
+transition: all 1s;
+    background-color: $bgcolor;
+    h1{
+
+font-style: italic;
+
+    }
+   p{
+color: black;
+span{
+
+color: tomato;
+
+}
+
+   }
+
+//    :hover{
+
+// background-color: yellow;
+
+//    }
+
+}
+
+
+.container:hover{
+
+background-color: rebeccapurple;
+
+}
